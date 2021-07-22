@@ -1,10 +1,13 @@
 /* Untuk tablet */
 @media all and (max-width: 1000px) {
-
+ 
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-
+    
+    .column {
+            width: 100%;
+    }
 
 }

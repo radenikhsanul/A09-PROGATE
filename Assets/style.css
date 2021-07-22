@@ -75,9 +75,28 @@ header {
 
 }
 
-.testimonial {
+#client {
+    background-color: #E2EBFD;
+    width: 100%;
+    height:364px;
+    padding: 15px 0;
+}
+
+#client h1 {
 
 }
+
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .contact {
 
@@ -91,7 +110,7 @@ footer {
     border-bottom:2px solid #dee7ec;
     padding-bottom:15px;
     margin-bottom:50px;
-    
+    text-align: center;
 }
 
 
