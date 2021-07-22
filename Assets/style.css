@@ -1,8 +1,16 @@
-p,h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    style:bold;
+* {
+    box-sizing: border-box;
 }
 
+p,h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    style :bold;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+ }
 
 header {
 
@@ -17,7 +25,6 @@ header {
     height:520px;
     width:100%;
     margin:0 auto;
-
 }
 .service-contents{
    padding-left:10px;
