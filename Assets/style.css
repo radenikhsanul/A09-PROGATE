@@ -1,3 +1,9 @@
+p,h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    style:bold;
+}
+
+
 header {
 
 }
@@ -6,9 +12,57 @@ header {
 
 }
 
+/* Bagian Service*/
 .service {
+    height:520px;
+    width:100%;
+    margin:0 auto;
 
 }
+.service-contents{
+   padding-left:10px;
+   padding-top: 50px;
+    
+
+}
+.service-item {
+    float: left;
+    margin-left:12%;
+    margin-right:-10px;
+ 
+}
+.section-service {
+    border-left:2px solid #dee7ec;
+    padding-left:5%;
+    margin-left:-5%;
+    font-size:28px
+}
+.line-vertikal {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    height: 250px;
+    width: 0px;
+}
+
+.btn-circle {
+    font-size: 30px;
+    border: 1px solid #801515;        
+    background-color: #801515;        
+    color: #FFFFFF;                  
+    width: 50px;                     
+    height: 50px;                    
+    line-height: 16px;                
+    text-align: center;               
+    border-radius: 50%;      
+}
+.btn-circle:hover {
+    opacity:0.8;
+}
+.btn-circle:active{
+    background:cornflowerblue;
+}
+
+
 
 .project {
 
@@ -25,4 +79,15 @@ header {
 footer {
 
 }
+
+.section-title {
+    border-bottom:2px solid #dee7ec;
+    padding-bottom:15px;
+    margin-bottom:50px;
+    
+}
+
+
+
+
 
