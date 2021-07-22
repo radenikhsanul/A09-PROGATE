@@ -3,7 +3,7 @@
 }
 
 p,h1 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Lucida Grande', Tahoma, Geneva, Verdana, sans-serif;
     style :bold;
 }
 
@@ -21,6 +21,11 @@ header {
 }
 
 /* Bagian Service*/
+
+#service {
+    background: rgba(52, 129, 243, 0.14);
+}
+
 .service {
     height:520px;
     width:100%;
@@ -30,13 +35,11 @@ header {
    padding-left:10px;
    padding-top: 50px;
     
-
 }
 .service-item {
     float: left;
     margin-left:12%;
     margin-right:-10px;
- 
 }
 .section-service {
     border-left:2px solid #dee7ec;
@@ -44,6 +47,7 @@ header {
     margin-left:-5%;
     font-size:28px
 }
+
 .line-vertikal {
     border-left: 1px black solid;
     border-right: 1px black solid;
@@ -70,20 +74,19 @@ header {
 }
 
 
-
 .project {
 
 }
 
+/* bagian client */
 #client {
     background-color: #E2EBFD;
     width: 100%;
-    height:364px;
-    padding: 15px 0;
+    padding: 5px 0 0;
 }
 
 #client h1 {
-
+    color: #3282FA;
 }
 
 .column {
@@ -94,23 +97,28 @@ header {
 /* Clear floats after the columns */
 .row:after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
   }
 
+/* bagian contact */
 .contact {
 
 }
 
 footer {
-
+    background-color: #5698FD;
+    text-align: center;
+    padding: 5px;
+    color: #FFFFFF;
 }
 
 .section-title {
-    border-bottom:2px solid #dee7ec;
+    /* border-bottom:2px solid #c8d2f7; */
     padding-bottom:15px;
     margin-bottom:50px;
     text-align: center;
+    font-size: 36px;
 }
 
 
