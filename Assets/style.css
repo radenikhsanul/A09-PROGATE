@@ -37,9 +37,10 @@ ul, li {
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
-    margin: -20px 0;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
   }
   
   /* Style the header links */
@@ -47,18 +48,14 @@ ul, li {
     float: left;
     color: #200CFF;
     text-align: center;
-    padding: 12px;
+    padding: 15px 16px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    font-size: 17px;
+    line-height: 20px;
+    border-radius: 2px;
   }
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-  .header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-  }
   .logo img {
       height: 40px;
       width: 237px;
@@ -66,7 +63,7 @@ ul, li {
   
   /* Change the background color on mouse-over */
   .header a:hover {
-    background-color: rgba(52, 120, 255, 0.836);
+    background-color: dodgerblue;
     color: rgb(255, 255, 255);
   }
   
@@ -80,6 +77,8 @@ ul, li {
   .header-right {
     float: right;
     padding-top: 10px;
+    font-weight: bold;
+    font-family:'Tahoma', sans-serif;
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
@@ -95,16 +94,17 @@ ul, li {
   }
 
 
-/* END HEADER */
 
+/* END HEADER */
 #heading {
-    height: 450px;
     width: 100%;
     background-color: #3481F3;
     margin: 0 auto;
 }
+
 .heading-contents {
-    padding: 50px 1px;
+    margin-top: 50px;
+    padding: 50px 10px;
     text-align: center;
 }
 
@@ -112,13 +112,14 @@ ul, li {
     float: left;
     width: 50%;
     text-align: left;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .heading-item h2 {
     font-family: sans-serif;
-    font-size: 33px;
     color:#FFFFFF;
+    font-size: 30px;
+    padding: 40px 0;
 }
 
 .heading-item p {
@@ -126,15 +127,21 @@ ul, li {
     font-size: 30px;
     line-height: 38px;
     color: #FFFFFF;
+    font-size: 24px;
 }
 
 .btn {
-    padding: 12px 24px;
+    padding: 15px 24px;
     color: white;
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
     text-align: center;
+  }
+
+  .call a :hover {
+    background-color: dodgerblue;
+    color: rgb(255, 255, 255);
   }
 
   .call {
@@ -145,19 +152,20 @@ ul, li {
   }
 /* Bagian Service*/
 #services {
-    padding: 5px 0;
-    height: 520px;
-    margin:0 auto;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    height: 560px;
     background: rgba(52, 129, 243, 0.14);
     text-align: center;
 }
 .service-contents{
-   padding: 30px 5px;
+   padding: 50px 5px;
 }
 .service-item {
     float:left;
     width:50%;
     padding-left: 20px;
+    padding-bottom: 15px;
 }
 .service-img{
     width: 25%;
@@ -166,7 +174,6 @@ ul, li {
 
 .line-vertikal {
     border-left: 1px black solid;
-    height: 250px;
     width: 0px;
 }
 .btn-circle {
@@ -174,8 +181,8 @@ ul, li {
     border: 3px solid #C0C0C0;        
     background-color:#135ff1;        
     color: #FFFFFF;                  
-    width: 50px;                     
-    height: 50px;                    
+    width: 50px; 
+    height: 50px;                                       
     line-height: 16px;                
     text-align: center;               
     border-radius: 50%;      
