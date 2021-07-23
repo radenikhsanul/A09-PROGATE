@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 p,h1 {
@@ -8,17 +10,92 @@ p,h1 {
 }
 
 body {
-    margin: 0;
     font-family: "Lucida Grande";
  }
 
- a {
+a {
     text-decoration: none;
   }
 
-header {
-
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    margin: -20px 0;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: #200CFF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .logo img {
+      height: 40px;
+      width: 237px;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: rgba(52, 120, 255, 0.836);
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+
+/* END HEADER */
 
 #heading {
     height: 450px;
@@ -67,43 +144,35 @@ header {
       font-weight: bold;
   }
 /* Bagian Service*/
-
-#service {
-    background: rgba(52, 129, 243, 0.14);
-}
-
-.service {
-    height:520px;
-    width:100%;
+#services {
+    padding: 5px 0;
+    height: 520px;
     margin:0 auto;
+    background: rgba(52, 129, 243, 0.14);
+    text-align: center;
 }
 .service-contents{
-   padding: 50px 10px;
-    
+   padding: 30px 5px;
 }
 .service-item {
-    float: left;
-    margin-left:12%;
-    margin-right:-10px;
+    float:left;
+    width:50%;
+    padding-left: 20px;
 }
-.section-service {
-    border-left:2px solid #dee7ec;
-    padding-left:5%;
-    margin-left:-5%;
-    font-size:28px
+.service-img{
+    width: 25%;
+    height: 25%;
 }
 
 .line-vertikal {
     border-left: 1px black solid;
-    border-right: 1px black solid;
     height: 250px;
     width: 0px;
 }
-
 .btn-circle {
     font-size: 30px;
-    border: 1px solid #801515;        
-    background-color: #801515;        
+    border: 3px solid #C0C0C0;        
+    background-color:#135ff1;        
     color: #FFFFFF;                  
     width: 50px;                     
     height: 50px;                    
@@ -119,8 +188,46 @@ header {
 }
 
 
+/*bagian project*/
 .project {
+    height:484px;
+    width:100%;
+    background-color: #3481F3;
+}
 
+#project h1 {
+    color: white;
+    padding: 10px 0;
+}
+
+#project p {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+.project-icon {
+    margin-left: 40px;
+    padding: 20px 30px;
+    float:left;
+}
+.project1{
+    border-radius: 33px;
+    height: 250px;
+    width:400px;
+}
+.project2{
+    border-radius: 33px;
+    height: 250px;
+    width: 400px;
+}
+.project3{
+    border-radius: 33px;
+    height: 250px;
+    width: 400px;
 }
 
 /* bagian client */
@@ -151,19 +258,32 @@ header {
 
 }
 
-footer {
+/* footer {
     background-color: #5698FD;
     text-align: center;
     padding: 5px;
+    color: #FFFFFF;
+} */
+
+footer {
+    background-color: #5698FD;
+    width: 100%;
+    height: 72px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 72px;
     color: #FFFFFF;
 }
 
 .section-title {
     /* border-bottom:2px solid #c8d2f7; */
     padding-bottom:15px;
-    margin-bottom:50px;
     text-align: center;
     font-size: 36px;
+    color: #3282FA;
 }
 
 

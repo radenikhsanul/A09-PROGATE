@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+p,h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    style :bold;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+ }
+ a {
+    text-decoration: none;
+ }
+.rectangle1 {
+    /* Rectangle 1 */
+    position: absolute;
+    width: 100%;
+    /*max-width dari progate, diubah jadi 1440px*/
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+    background: #FFFEFE;
+    mix-blend-mode: multiply;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+header {
+    /* Header */
+    position: fixed;
+    width: 1440px;
+    height: 74px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 12px solid rgba(86, 152, 253, .2);
+}
+.header-left {
+    float: letf;
+}
+.logo {
+    /*logo cipta dimensi*/
+    position: absolute;
+    width: 237px;
+    height: 40px;
+    left: 21px;
+    top: 18px;
+    cursor: pointer;
+}
+.header-right {
+    float: right;
+
+}
+.text-home {
+    /* Home */
+    position: absolute;
+    width: 81px;
+    height: 42.08px;
+    left: 850px;
+    top: 15.96px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.135em;
+    color: #200CFF;
+    text-decoration: none;
+    
+}
+.text-home:hover {
+    padding-top: 3px;
+    opacity: .5;
+    color: rgb(96, 102, 237);
+}
+.text-service {
+    /* Service */
+    position: absolute;
+    width: 88px;
+    height: 42.08px;
+    left: 962px;
+    top: 15.96px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #200CFF;
+    text-decoration: none;
+
+}
+.text-service:hover {
+    padding-top: 3px;
+    opacity: .5;
+    color: rgb(96, 102, 237);
+
+}
+.text-project {
+    /* Project */
+    position: absolute;
+    width: 87px;
+    height: 42.08px;
+    left: 1081px;
+    top: 15.96px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #200CFF;
+    text-decoration: none;
+
+}
+.text-project:hover {
+    padding-top: 3px;
+    opacity: .5;
+    color: rgb(96, 102, 237);
+
+}
+.text-contact {
+    /* Contact */
+    position: absolute;
+    width: 94px;
+    height: 42.08px;
+    left: 1193px;
+    top: 15.96px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #200CFF;
+    text-decoration: none;
+
+}
+.text-contact:hover {
+    padding-top: 3px;
+    opacity: .5;
+    color: rgb(96, 102, 237);
+
+}
+.text-log-in {
+    /* Log In */
+    position: absolute;
+    width: 78px;
+    height: 42.08px;
+    left: 1318px;
+    top: 15.96px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #200CFF;
+    text-decoration: none;
+
+}
+.text-log-in:hover {
+    padding-top: 3px;
+    opacity: .5;
+    color: rgb(96, 102, 237);
+
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+/* Ini css responsive punya Sarah. Header sama footer
+kak, kalau banyak kurangnya minta maaf banyak banyak, ini pengalaman 
+pertama soalnya. Yang penting aku udah berusaha dan berani tanggung jawab sama tugas ku wkwk.
+Meski itu sederhana. */
+
+
+/* Untuk tablet */
+@media all and (max-width: 1000px) {
+ 
+    .column {
+    width: 50%;
+    margin-bottom: 50px;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    
+    .column {
+            width: 100%;
+    }
+    /* Tambahkan CSS untuk header-right dari progate*/
+    .header-right {
+        display: none;
+    }
+    /* Tambahkan CSS untuk menu-icon dari progate*/
+    .menu-icon {
+        display: block;
+    }
+    footer {
+        text-align: center;
+    }
+
+}
