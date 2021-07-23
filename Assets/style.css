@@ -12,14 +12,60 @@ body {
     font-family: "Lucida Grande";
  }
 
+ a {
+    text-decoration: none;
+  }
+
 header {
 
 }
 
-.heading {
-
+#heading {
+    height: 450px;
+    width: 100%;
+    background-color: #3481F3;
+    margin: 0 auto;
+}
+.heading-contents {
+    padding: 50px 1px;
+    text-align: center;
 }
 
+.heading-item {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 0 30px;
+}
+
+.heading-item h2 {
+    font-family: sans-serif;
+    font-size: 33px;
+    color:#FFFFFF;
+}
+
+.heading-item p {
+    font-family: 'Segoe UI', 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+  .call {
+      background-color: #73E7A3;
+      border-radius: 19px;
+      color: #000000;
+      font-weight: bold;
+  }
 /* Bagian Service*/
 
 #service {
@@ -32,8 +78,7 @@ header {
     margin:0 auto;
 }
 .service-contents{
-   padding-left:10px;
-   padding-top: 50px;
+   padding: 50px 10px;
     
 }
 .service-item {
