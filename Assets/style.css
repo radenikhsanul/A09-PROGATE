@@ -21,44 +21,40 @@ header {
 }
 
 /* Bagian Service*/
-
-#service {
-    background: rgba(52, 129, 243, 0.14);
-}
-
-.service {
-    height:520px;
-    width:100%;
+#services {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 620px;
     margin:0 auto;
+    background-color: #E2EBFD;
+    text-align: center;
 }
-.service-contents{
-   padding-left:10px;
-   padding-top: 50px;
+.service{
+    width: 100%;
     
+
 }
 .service-item {
-    float: left;
-    margin-left:12%;
-    margin-right:-10px;
+    float:left;
+    width:50%;
+    padding-left: 20px;
+ 
 }
-.section-service {
-    border-left:2px solid #dee7ec;
-    padding-left:5%;
-    margin-left:-5%;
-    font-size:28px
+.service-img{
+    width: 25%;
+    height: 25%;
 }
 
 .line-vertikal {
     border-left: 1px black solid;
-    border-right: 1px black solid;
     height: 250px;
     width: 0px;
 }
 
 .btn-circle {
     font-size: 30px;
-    border: 1px solid #801515;        
-    background-color: #801515;        
+    border: 3px solid #C0C0C0;        
+    background-color:#135ff1;        
     color: #FFFFFF;                  
     width: 50px;                     
     height: 50px;                    
@@ -66,6 +62,7 @@ header {
     text-align: center;               
     border-radius: 50%;      
 }
+
 .btn-circle:hover {
     opacity:0.8;
 }
@@ -74,6 +71,7 @@ header {
 }
 
 
+/*bagian project*/
 .project {
 
 }
@@ -119,6 +117,7 @@ footer {
     margin-bottom:50px;
     text-align: center;
     font-size: 36px;
+    color: #3282FA;
 }
 
 
