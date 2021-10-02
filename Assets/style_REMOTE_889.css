@@ -167,7 +167,7 @@ ul, li {
     padding-left: 20px;
     padding-bottom: 15px;
 }
-.service-img {
+.service-img{
     width: 25%;
     height: 25%;
 }
@@ -277,6 +277,13 @@ ul, li {
     padding-left: 20px;
     
 }
+.btn-contact {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
 .btn-contact:hover {
     opacity: 1;
   }
@@ -287,13 +294,20 @@ ul, li {
   }
 
 .formcontact{
-	/*membuat lebar form penuh*/
-	box-sizing : border-box;
-	width: 100%;
-	padding: 2px;
-	font-size: 11pt;
-	margin-bottom: 5px;
+ /*membuat lebar form penuh*/
+ box-sizing : border-box;
+ width: 100%;
+ padding: 2px;
+ font-size: 11pt;
+ margin-bottom: 5px;
 }
+
+/* footer {
+    background-color: #5698FD;
+    text-align: center;
+    padding: 5px;
+    color: #FFFFFF;
+} */
 
 footer {
     background-color: #5698FD;
@@ -313,16 +327,7 @@ footer {
     padding-bottom:15px;
     text-align: center;
     font-size: 36px;
-   
-}
-.white {
-    color: #FFFFFF;
-}
-.blue {
     color: #3282FA;
-}
-.black {
-    color: #000000;
 }
 
 
