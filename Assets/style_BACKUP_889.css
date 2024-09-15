@@ -277,6 +277,33 @@ ul, li {
     padding-left: 20px;
     
 }
+.btn-contact {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+<<<<<<< HEAD
+=======
+}
+.btn-contact:hover {
+    opacity: 1;
+  }
+  .add {
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+
+.formcontact{
+ /*membuat lebar form penuh*/
+ box-sizing : border-box;
+ width: 100%;
+ padding: 2px;
+ font-size: 11pt;
+ margin-bottom: 5px;
+>>>>>>> upstream/main
+}
 .btn-contact:hover {
     opacity: 1;
   }
